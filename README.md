@@ -23,7 +23,7 @@
 
 or
 
-1. Run docker image named `amaya382:webgraph` directly with your command
+1. Run docker image named `amaya382/webgraph` directly with your command
 
 
 ## Acknowledgement

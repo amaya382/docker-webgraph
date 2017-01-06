@@ -1,7 +1,7 @@
 version: "2"
 services:
   webgraph:
-    image: amaya382:webgraph
+    image: amaya382/webgraph
     volumes:
       - ".:/app/data/"
     command: [sh, -c, "java -cp '*' -Xmx8192m it.unimi.dsi.webgraph.ArcListASCIIGraph data/graphname data/graphname.edge"]
